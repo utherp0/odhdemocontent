@@ -28,6 +28,6 @@ while (currentPopulation != 0 ) and ( currentGeneration < generations):
 
     print(currentGeneration, currentPopulation, currentInfected, totalDeaths)
 
-    output.write("" + currentGeneration + "," + currentPopulation + "," + currentInfected + "," + totalDeaths + "\n")
+    output.write(str(currentGeneration) + "," + str(currentPopulation) + "," + str(currentInfected) + "," + str(totalDeaths) + "\n")
 else:
     output.close()
